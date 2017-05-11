@@ -19,7 +19,7 @@ class ReposList extends React.Component {
 
 	// method on firs mount of component
 	componentDidMount() {
-		const url = 'https://api.github.com/users/iGenius-Srl/repos';
+		const url = 'https://api.github.com/users/USER/repos';
 		// data fetch
 		fetch(url)
 		// if fetch succeed convert received data to json
